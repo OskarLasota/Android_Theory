@@ -12,3 +12,15 @@ Memory leaks occur when the garbage collector is not able to clear unused object
 ### 3) What is the difference between unit and integration testing? 
 
 ### 4) What is A/B testing?
+
+### 5) What to consider when choosing between ListView and RecyclerView
+
+### 6) What can you tell me about the ViewHolder pattern?
+
+The ViewHolder pattern is used in the RecyclerView Adapter and allows us to scroll through the list smoothly as it stores row view references hence leading the findViewById function only once on binding. 
+
+### 7) What can you tell me about the LayoutManager?
+
+The LayoutManager takes responsibility for laying out row views and allows us to choose the way we want to display our data, whether we want to display data in a linear layout or grid layout and if so, how many data points per row. We can also set the orientation of the scrolling of the data set.
+
+
