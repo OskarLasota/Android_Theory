@@ -14,6 +14,7 @@ Memory leaks occur when the garbage collector is not able to clear unused object
 ### 4) What is A/B testing?
 
 ### 5) What to consider when choosing between ListView and RecyclerView
+I would use a ListView when the data that I want to display isn't dynamic. RecyclerView has much more power when it comes to displaying complex views or dynamic data. RecyclerView needs an adapter implementation where we are able to "recycle" the view once they get out of scope as well as it avoids the CPU-intensive process of loading the entire dataset at once, it will only load the amount of data that can be seen on the screen, unlike ListView which loads the entire data set.
 
 ### 6) What can you tell me about the ViewHolder pattern?
 
